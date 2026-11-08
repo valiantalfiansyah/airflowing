@@ -1,0 +1,43 @@
+{
+      "python.analysis.stubPath": ".vscode",
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.analysis.extraPaths": ["src"],
+    "files.exclude": {
+        "**/*.egg-info": true,
+        "**/.pytest_cache/**": true,
+        "**/__pycache__/**": true,
+        "**/.venv/**": true,
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/dist": true,
+        "**/.ruff_cache/**": true
+    },
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnPaste": false,
+        "editor.formatOnSaveMode": "file",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "files.watcherExclude": {
+        "**/dev-deps/**": true,
+        "**/.pytest_cache/**": true,
+        "**/.venv/**": true,
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/tmp/**": true,
+        "**/bower_components/**": true,
+        "**/dist/**": true,
+        "**/.ruff_cache/**": true
+    },
+    "python.terminal.useEnvFile": true,
+}
