@@ -27,6 +27,13 @@
             "source.organizeImports": "explicit"
         }
     },
+    "[sql]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "sqlfluff.vscode-sqlfluff"
+    },
+    "sqlfluff.executablePath": "${workspaceFolder}/.venv/bin/sqlfluff",
+    "sqlfluff.format.enabled": true,
+    "sqlfluff.linter.run": "onSave",
     "files.watcherExclude": {
         "**/dev-deps/**": true,
         "**/.pytest_cache/**": true,
