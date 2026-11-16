@@ -6,6 +6,8 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "apache-airflow==3.4.0",
+    "dbt-clickhouse>=1.10.3",
+    "dbt-core>=1.12.7",
     "pydantic==2.14.2",
 ]
 

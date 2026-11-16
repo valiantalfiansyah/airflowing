@@ -1,0 +1,11 @@
+analytics:
+  target: dev
+  outputs:
+    dev:
+      type: clickhouse
+      host: "{{ env_var('CLICKHOUSE_HOST', 'localhost') }}"
+      port: 8123
+      user: "{{ env_var('CLICKHOUSE_USER') }}"
+      password: "{{ env_var('CLICKHOUSE_PASSWORD') }}"
+      schema: "{{ env_var('CLICKHOUSE_DB') }}"
+      threads: 4

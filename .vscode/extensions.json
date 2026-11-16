@@ -4,5 +4,6 @@
     "redhat.vscode-yaml",
     "charliermarsh.ruff",
     "sqlfluff.vscode-sqlfluff",
+    "dbtlabsinc.dbt",
   ]
 }
